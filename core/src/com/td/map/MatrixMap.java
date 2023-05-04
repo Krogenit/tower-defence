@@ -12,7 +12,10 @@ public class MatrixMap {
     @Getter
     private final MapEntryType[][] matrix = new MapEntryType[MAP_SIZE][MAP_SIZE];
 
+    @Getter
     private final Vector2 spawnPoint = new Vector2();
+    @Getter
+    private final Vector2 endPoint = new Vector2();
     private final Random random = new Random();
 
     public void generateMap() {
@@ -35,5 +38,7 @@ public class MatrixMap {
                 y++;
             }
         } while (x < MAP_SIZE && y < MAP_SIZE);
+
+        endPoint.set(x, y);
     }
 }

@@ -8,7 +8,7 @@ import com.td.map.MapEntryType;
 import com.td.map.MatrixMap;
 
 public class MapRenderer {
-    private static final int SLOT_SIZE_IN_PIXELS = 40;
+    public static final int SLOT_SIZE_IN_PIXELS = 40;
 
     private final ShapeRenderer shapeRenderer = new ShapeRenderer();
 
