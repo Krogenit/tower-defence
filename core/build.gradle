@@ -1,6 +1,14 @@
-sourceCompatibility = 1.7
+sourceCompatibility = 1.8
 [compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
 
 sourceSets.main.java.srcDirs = ["src/"]
 
 eclipse.project.name = appName + "-core"
+
+dependencies {
+    compileOnly 'org.projectlombok:lombok:1.18.26'
+    annotationProcessor 'org.projectlombok:lombok:1.18.26'
+
+    testCompileOnly 'org.projectlombok:lombok:1.18.26'
+    testAnnotationProcessor 'org.projectlombok:lombok:1.18.26'
+}
