@@ -20,13 +20,13 @@ public class Enemy extends Image {
         this.shapeRenderer = shapeRenderer;
 
         if (type == 1) {
-            maxHp = 8.0f;
+            maxHp = 6.0f;
             moveSpeed = 0.7f;
         } else if (type == 2) {
             maxHp = 2.25f;
             moveSpeed = 3.25f;
         } else {
-            maxHp = 4.0f;
+            maxHp = 3.25f;
             moveSpeed = 1.0f;
         }
 

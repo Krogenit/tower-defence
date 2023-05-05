@@ -18,8 +18,8 @@ import static com.td.gui.GameScreen.LEVEL_SIZE;
 import static com.td.gui.GameScreen.SLOT_SIZE_IN_PIXELS;
 
 public class World extends WidgetGroup {
-    private static final int MIN_ENTITY_SPAWN_COUNT = 20;
-    private static final int MAX_ENTITY_SPAWN_COUNT = 40;
+    private static final int MIN_ENTITY_SPAWN_COUNT = 40;
+    private static final int MAX_ENTITY_SPAWN_COUNT = 60;
     private static final int ENTITY_SIZE = 20;
     public static final float TOWER_RELOAD_TIME_IN_SECONDS = 0.25f;
 
