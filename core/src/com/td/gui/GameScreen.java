@@ -66,8 +66,6 @@ public class GameScreen extends ScreenAdapter {
         root.setFillParent(true);
         stage.addActor(root);
 
-        root.setDebug(true); // This is optional, but enables debug lines for tables.
-
         successWindow = createWindow(
                 "Congratulations! Level has passed.",
                 "Exit",
